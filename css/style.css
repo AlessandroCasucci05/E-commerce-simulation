@@ -1,0 +1,335 @@
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   
+}
+
+nav{
+    background-color: black;
+    box-shadow: 1px 2px 3px black;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav p{
+    color:white;
+    margin-left: 1em;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(114, 105, 105);
+}
+
+h1{
+    text-align: center;
+    margin-top: 0.5em;
+    font-size: 2.4rem;
+    margin-bottom: 0.4em;
+}
+
+#reg-main{
+   width: 50vw;
+   height: 80vh;
+   margin: auto;
+   background-color: rgb(64, 64, 137);
+   color:white;
+   border-radius: 6px;
+   padding-top:3em;
+   margin-bottom: 3em;
+   box-shadow: 1px 1px 3px black;
+}
+
+
+#negozio-plus{
+   background-color: white;
+   cursor: pointer;
+   height: 30vh;
+   display: flex;
+   justify-content: space-around;
+   font-size: 2rem;
+   width:80%;
+   margin: auto;
+   border: 1px solid black;
+}
+
+.inserisci{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20vw;
+    height: 100%;
+
+}
+
+.inserisci button{
+    margin-top: 1em;
+    background-color: green;
+    border:none;
+    color: white;
+    font-size: 1.6rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.inserisci input, .inserisci textarea{
+    font-size: 1.6rem;
+}
+
+.appendi{
+    width: 80%;
+    margin: auto;
+    margin-top: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+    gap:0.5em
+}
+.schede-neg{
+    width: 19.5vw;
+    border-radius: 3px;
+    border: 1px solid black;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    font-size: 2rem;
+}
+
+.schede-neg button{
+    font-size: 1.3rem;
+    padding: 0.4em;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+} 
+
+.mieiprodotti{
+    margin:auto;
+    margin-top: 2em;
+    background-color: white;
+    width: 80%;
+    height: 20vh;
+}
+
+.carrello{
+    margin-left: 5em;
+    border-radius: 3px;
+    width: 90vw;
+    height: 70vh;
+    background-color: white;
+    overflow: scroll;
+}
+
+
+.car-schede{
+    background-color:rgb(64, 64, 137);
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    height: 10vh;
+    align-items: center;
+}
+
+.car-schede button{
+    background-color: red;
+    border: none;
+    width: 8vw;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    height: 6vh;
+    cursor: pointer;
+   
+}
+
+
+#home-main{
+    padding: 0.3em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-around;
+    width: 90vw;
+    height: 75vh;
+    background-color:rgb(64, 64, 137);
+    margin: auto;
+    border-radius: 3px;
+    box-shadow: 3px 3px 4px black;
+    margin-bottom: 3em;
+    overflow:scroll;
+}
+
+.home-sched{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.9rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    width: 20vw;
+    height: 45vh;
+    margin-bottom: 0.3em;
+}
+
+.home-sched button{
+  font-size: 1.3rem;
+  padding: 0.5em;
+  background-color: green;
+  border: none;
+  color:white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#nome-Utente{
+    color:grey;
+}
+
+
+#reg-main form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    margin-bottom: 2em;
+}
+
+#reg-main form input{
+    font-size: 1.8rem;
+}
+
+#reg-main div{
+   
+   width: 60%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+
+}
+#reg-main div button{
+    font-size: 1.6rem;
+    padding: 0.2em;
+    cursor: pointer;
+}
+
+.login{
+    
+    background-color: rgb(37, 34, 34);
+    position: absolute;
+    color:white;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    transform: translate(75%,-110%);
+    width: 40vw;
+    height: 80vh;
+    display: none;
+}
+
+.login h3{
+    font-size: 2.3rem;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-size: 2rem;
+}
+
+.login input{
+    font-size: 2rem;
+}
+
+.paginenav{
+    color:white;
+    width: 40%;
+
+}
+
+.paginenav ul{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.paginenav ul li{
+    list-style: none;
+}
+
+.paginenav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+.paginenav .nomeutente{
+    
+    font-weight: bold;
+    color: red;
+}
+
+.formvalida{
+    font-size: 1rem;
+    color:red;
+}
+
+.btn-log{
+    width: 20vw;
+    padding: 0.3em;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.log-no{
+    font-size: 1rem;
+    color:red;
+}
+
+.mieiprodotti{
+    background-color: white;
+    border: 1px solid black;
+    width: 80vw;
+    height: 30vh;
+}
+
+.prod-padre{
+    display: flex;
+
+}
+
+.prod-opzioni{
+    
+    flex-basis:28%;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.prod-opzioni input{
+    font-size: 2rem;
+}
+
+
+
+
+
+
